@@ -31,10 +31,12 @@
     owl:versionIRI      <https://w3id.org/rg-mpg-de/worktime/1.0.0> ;
     vs:term_status      "testing" ;
     skos:prefLabel      "MPILHLT Begriffe der Arbeitszeitregelung"@de ;
-    skos:hasTopConcept  :n0 ,
-                        :n1 ,
-                        :n2 ,
-                        :n3 .
+    skos:hasTopConcept  :n0 , # Regulatory Concept
+                        :n1 , # Activity
+                        :n2 , # Role/function
+                        :n3 , # Object
+                        :n4 . # Normative Assessment
+
 
 :n0 a skos:Concept ;        # Regulatory Concept
     skos:inScheme       :scheme ;
@@ -42,11 +44,13 @@
     skos:notation       "0" ;
     skos:altLabel       "0Regelungsbegriff"@de ;
     skos:prefLabel      "Regelungsbegriff"@de ;
-    skos:scopeNote     "Regulativer Begriff"@de ;
+    skos:scopeNote      "Regulativer Begriff"@de ;
     skos:narrower       :n0.1 , # Working time
                         :n0.2 , # Overwork
                         :n0.3 , # Absence
-                        :n0.4 . # Control mechanisms
+                        :n0.4 , # Control mechanisms
+                        :n0.5 , # Strafe
+                        :n0.6 . # Incentive
 
 :n0.1 a skos:Concept ;          # Working time
     skos:inScheme       :scheme ;
@@ -360,7 +364,7 @@
     skos:prefLabel      "Scheine"@de ;
     skos:broader        :n0.4.1 .
 
-:n0.4.2 a skos:Concept ;
+:n0.4.2 a skos:Concept ;    # das ist eine thematische Rolle (Thema: Kontrolle), sie kann durch Personen wahrgenommen werden, die anhand ihrer sozialen Rolle ('Meister', 'Pförtner') identifiziert werden
     skos:inScheme       :scheme ;
     skos:notation       "0.4.2" ;
     skos:altLabel       "0.4.2Träger der Kontrolle"@de ;
@@ -383,12 +387,27 @@
     skos:prefLabel      "Frist"@de ;
     skos:broader        :n0.4.3 .
 
-:n0.4.3.2 a skos:Concept ;
+:n0.4.3.2 a skos:Concept ;    # das ist eine thematische Rolle (Thema: Kontrolle), sie kann durch Personen wahrgenommen werden, die anhand ihrer sozialen Rolle ('Meister', 'Pförtner') identifiziert werden
     skos:inScheme       :scheme ;
     skos:notation       "0.4.3.2" ;
     skos:altLabel       "0.4.3.2Meldungsempfänger"@de ;
     skos:prefLabel      "Meldungsempfänger"@de ;
     skos:broader        :n0.4.3 .
+
+:n0.5 a skos:Concept ;
+    skos:inScheme       :scheme ;
+    skos:notation       "0.5" ;
+    skos:altLabel       "0.5Strafe"@de ;
+    skos:prefLabel      "Strafe"@de ;
+    skos:broader        :n0 .
+
+:n0.6 a skos:Concept ;
+    skos:inScheme       :scheme ;
+    skos:notation       "0.6" ;
+    skos:altLabel       "0.6Anreiz"@de ;
+    skos:prefLabel      "Anreiz"@de ;
+    skos:broader        :n0 .
+
 
 
 :n1 a skos:Concept ;        # Activity
@@ -479,15 +498,17 @@
     skos:prefLabel      "Tod"@de ;
     skos:broader        :n1 .
 
+## Aufenthalt/Begehung
+## Mitbringen/mitnehmen
 
-:n2 a skos:Concept ;        # Role/Function
+:n2 a skos:Concept ;        # social Role
     skos:inScheme       :scheme ;
     skos:topConceptOf   :scheme ;
     skos:notation       "2" ;
     skos:altLabel       "2Rolle"@de ,
                         "Funktion"@de ;
     skos:prefLabel      "Rolle"@de ;
-    skos:scopeNote      "Von normativen Regeln definierte oder in ihnen erwähnte Rolle oder Funktion"@de ;
+    skos:scopeNote      "Von normativen Regeln definierte oder in ihnen erwähnte soziale Rolle oder Kategorie von Personen"@de ;
     skos:narrower       :n2.1 ,
                         :n2.2 ,
                         :n2.3 ,
@@ -625,7 +646,10 @@
                         :n3.4 ,
                         :n3.5 ,
                         :n3.6 ,
-                        :n3.7 .
+                        :n3.7 ,
+                        :n3.8 ,
+                        :n3.9 ,
+                        :n3.10.
 
 :n3.1 a skos:Concept ;          # Fabrikuhr
     skos:inScheme       :scheme ;
@@ -641,7 +665,7 @@
     skos:prefLabel      "Stechuhr"@de ;
     skos:broader        :n3 .
 
-:n3.3 a skos:Concept ;          # Pfeife/Glocke/Sirene
+:n3.3 a skos:Concept ;          # Tonsignal: Pfeife/Glocke/Sirene
     skos:inScheme       :scheme ;
     skos:notation       "3.3" ;
     skos:altLabel       "3.3Glocke"@de ,
@@ -677,3 +701,68 @@
     skos:altLabel       "3.7Material"@de ;
     skos:prefLabel      "Material"@de ;
     skos:broader        :n3 .
+
+:n3.8 a skos:Concept ;          # Räumlichkeit
+    skos:inScheme       :scheme ;
+    skos:notation       "3.8" ;
+    skos:altLabel       "3.8Räumlichkeit"@de ;
+    skos:prefLabel      "Räumlichkeit"@de ;
+    skos:broader        :n3 .
+
+:n3.9 a skos:Concept ;          # Wege
+    skos:inScheme       :scheme ;
+    skos:notation       "3.9" ;
+    skos:altLabel       "3.9Wege"@de ;
+    skos:prefLabel      "Wege"@de ;
+    skos:broader        :n3 .
+
+:n3.10 a skos:Concept ;         # Marke
+    skos:inScheme       :scheme ;
+    skos:notation       "3.10" ;
+    skos:altLabel       "3.10Marke"@de ,
+                        "Schein"@de ,
+                        "Chip"@de ;
+    skos:prefLabel      "Token"@de ;
+    skos:broader        :n3 .
+
+
+
+:n4 a skos:Concept ;        # normative Einordnung
+    skos:inScheme       :scheme ;
+    skos:topConceptOf   :scheme ;
+    skos:notation       "4" ;
+    skos:altLabel       "4NormativeEinordnung"@de ;
+    skos:prefLabel      "Normative Einordnung"@de ;
+    skos:scopeNote      "Normative Einordnung eines Sachverhalts in normativen Regeln"@de ;
+    skos:narrower       :n4.1 ,
+                        :n4.2 ,
+                        :n4.3 ,
+                        :n4.4 .
+
+:n4.1 a skos:Concept ;          # Verbot
+    skos:inScheme       :scheme ;
+    skos:notation       "4.1" ;
+    skos:altLabel       "4.1Verbot"@de ;
+    skos:prefLabel      "Verbot"@de ;
+    skos:broader        :n4 .
+
+:n4.2 a skos:Concept ;          # Gebot
+    skos:inScheme       :scheme ;
+    skos:notation       "4.2" ;
+    skos:altLabel       "4.2Gebot"@de ;
+    skos:prefLabel      "Gebot"@de ;
+    skos:broader        :n4 .
+
+:n4.3 a skos:Concept ;          # Erlaubnis
+    skos:inScheme       :scheme ;
+    skos:notation       "4.3" ;
+    skos:altLabel       "4.3Erlaubnis"@de ;
+    skos:prefLabel      "Erlaubnis"@de ;
+    skos:broader        :n4 .
+
+:n4.4 a skos:Concept ;          # Freistellung
+    skos:inScheme       :scheme ;
+    skos:notation       "4.4" ;
+    skos:altLabel       "4.Freistellung4"@de ;
+    skos:prefLabel      "Freistellung"@de ;
+    skos:broader        :n4 .
