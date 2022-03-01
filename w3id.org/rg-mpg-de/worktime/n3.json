@@ -59,6 +59,24 @@
       "prefLabel": {
         "de": "Material"
       }
+    },
+    {
+      "id": "https://w3id.org/rg-mpg-de/worktime/n3.8",
+      "prefLabel": {
+        "de": "Räumlichkeit"
+      }
+    },
+    {
+      "id": "https://w3id.org/rg-mpg-de/worktime/n3.9",
+      "prefLabel": {
+        "de": "Wege"
+      }
+    },
+    {
+      "id": "https://w3id.org/rg-mpg-de/worktime/n3.10",
+      "prefLabel": {
+        "de": "Token"
+      }
     }
   ],
   "inScheme": {
