@@ -41,6 +41,18 @@
       "prefLabel": {
         "de": "Freistellung"
       }
+    },
+    {
+      "id": "https://w3id.org/rg-mpg-de/worktime/n4.5",
+      "prefLabel": {
+        "de": "Überschreibung"
+      }
+    },
+    {
+      "id": "https://w3id.org/rg-mpg-de/worktime/n4.6",
+      "prefLabel": {
+        "de": "Ausnahme"
+      }
     }
   ],
   "inScheme": {

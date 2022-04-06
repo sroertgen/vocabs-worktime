@@ -1,68 +1,30 @@
 {
-  "id": "https://w3id.org/rg-mpg-de/worktime/n4",
+  "id": "https://w3id.org/rg-mpg-de/worktime/n4.5",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn4",
-  "inbox": "https://test.skohub.io/inbox?target=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn4",
+  "followers": "https://test.skohub.io/followers?subject=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn4.5",
+  "inbox": "https://test.skohub.io/inbox?target=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn4.5",
   "prefLabel": {
-    "de": "Normative Einordnung"
+    "de": "Überschreibung"
   },
   "altLabel": {
     "de": [
-      "4NormativeEinordnung"
+      "5.Überschreibung"
     ]
   },
-  "scopeNote": {
-    "de": "Normative Einordnung eines Sachverhalts in normativen Regeln"
-  },
   "notation": [
-    "4"
+    "4.5"
   ],
-  "narrower": [
-    {
-      "id": "https://w3id.org/rg-mpg-de/worktime/n4.1",
-      "prefLabel": {
-        "de": "Verbot"
-      }
-    },
-    {
-      "id": "https://w3id.org/rg-mpg-de/worktime/n4.2",
-      "prefLabel": {
-        "de": "Gebot"
-      }
-    },
-    {
-      "id": "https://w3id.org/rg-mpg-de/worktime/n4.3",
-      "prefLabel": {
-        "de": "Erlaubnis"
-      }
-    },
-    {
-      "id": "https://w3id.org/rg-mpg-de/worktime/n4.4",
-      "prefLabel": {
-        "de": "Freistellung"
-      }
-    },
-    {
-      "id": "https://w3id.org/rg-mpg-de/worktime/n4.5",
-      "prefLabel": {
-        "de": "Überschreibung"
-      }
-    },
-    {
-      "id": "https://w3id.org/rg-mpg-de/worktime/n4.6",
-      "prefLabel": {
-        "de": "Ausnahme"
-      }
+  "broader": {
+    "id": "https://w3id.org/rg-mpg-de/worktime/n4",
+    "prefLabel": {
+      "de": "Normative Einordnung"
     }
-  ],
+  },
   "inScheme": {
     "id": "https://w3id.org/rg-mpg-de/worktime/scheme",
     "title": {
       "de": "MPILHLT Begriffe der Arbeitszeitregelung"
     }
-  },
-  "topConceptOf": {
-    "id": "https://w3id.org/rg-mpg-de/worktime/scheme"
   },
   "@context": {
     "@version": 1.1,
