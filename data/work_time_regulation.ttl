@@ -27,7 +27,7 @@
     rdfs:seeAlso        <https://www.lhlt.mpg.de/research-project/non-state-law-of-the-economy> ;
     vann:preferredNamespacePrefix "worktime" ;
     vann:preferredNamespaceUri "https://w3id.org/rg-mpg-de/worktime/" ;
-    owl:versionInfo     "1.0.0" ;
+    owl:versionInfo     "0.0.2" ;
     owl:versionIRI      <https://w3id.org/rg-mpg-de/worktime/1.0.0> ;
     vs:term_status      "testing" ;
     skos:prefLabel      "MPILHLT Begriffe der Arbeitszeitregelung"@de ;
@@ -364,7 +364,7 @@
     skos:prefLabel      "Scheine"@de ;
     skos:broader        :n0.4.1 .
 
-:n0.4.2 a skos:Concept ;    # das ist eine thematische Rolle (Thema: Kontrolle), sie kann durch Personen wahrgenommen werden, die anhand ihrer sozialen Rolle ('Meister', 'Pförtner') identifiziert werden
+:n0.4.2 a skos:Concept ;        # das ist eine *thematische* Rolle (Thema: Kontrolle), sie kann durch Personen wahrgenommen werden, die anhand ihrer *sozialen* Rolle ('Meister', 'Pförtner') identifiziert werden
     skos:inScheme       :scheme ;
     skos:notation       "0.4.2" ;
     skos:altLabel       "0.4.2Träger der Kontrolle"@de ;
@@ -387,7 +387,7 @@
     skos:prefLabel      "Frist"@de ;
     skos:broader        :n0.4.3 .
 
-:n0.4.3.2 a skos:Concept ;    # das ist eine thematische Rolle (Thema: Kontrolle), sie kann durch Personen wahrgenommen werden, die anhand ihrer sozialen Rolle ('Meister', 'Pförtner') identifiziert werden
+:n0.4.3.2 a skos:Concept ;      # das ist eine *thematische* Rolle (Thema: Kontrolle), sie kann durch Personen wahrgenommen werden, die anhand ihrer *sozialen* Rolle ('Meister', 'Pförtner') identifiziert werden
     skos:inScheme       :scheme ;
     skos:notation       "0.4.3.2" ;
     skos:altLabel       "0.4.3.2Meldungsempfänger"@de ;
@@ -501,7 +501,7 @@
 ## Aufenthalt/Begehung
 ## Mitbringen/mitnehmen
 
-:n2 a skos:Concept ;        # social Role
+:n2 a skos:Concept ;        # Social Role
     skos:inScheme       :scheme ;
     skos:topConceptOf   :scheme ;
     skos:notation       "2" ;
@@ -737,7 +737,9 @@
     skos:narrower       :n4.1 ,
                         :n4.2 ,
                         :n4.3 ,
-                        :n4.4 .
+                        :n4.4 ,
+                        :n4.5 ,
+                        :n4.6 .
 
 :n4.1 a skos:Concept ;          # Verbot
     skos:inScheme       :scheme ;
@@ -765,4 +767,16 @@
     skos:notation       "4.4" ;
     skos:altLabel       "4.Freistellung4"@de ;
     skos:prefLabel      "Freistellung"@de ;
+    skos:broader        :n4 .
+:n4.5 a skos:Concept ;          # Überschreibung
+    skos:inScheme       :scheme ;
+    skos:notation       "4.5" ;
+    skos:altLabel       "5.Überschreibung"@de ;
+    skos:prefLabel      "Überschreibung"@de ;
+    skos:broader        :n4 .
+:n4.6 a skos:Concept ;          # Ausnahme
+    skos:inScheme       :scheme ;
+    skos:notation       "4.6" ;
+    skos:altLabel       "6.Ausnahme"@de ;
+    skos:prefLabel      "Ausnahme"@de ;
     skos:broader        :n4 .
