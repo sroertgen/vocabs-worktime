@@ -4,35 +4,15 @@
   "followers": "https://test.skohub.io/followers?subject=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn0.4",
   "inbox": "https://test.skohub.io/inbox?target=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn0.4",
   "prefLabel": {
-    "de": "Kontrolle"
+    "de": "Sonn-/Feiertagsarbeit"
   },
   "altLabel": {
     "de": [
-      "0.4Kontrolle"
+      "0.4Sonn-/Feiertagsarbeit"
     ]
   },
   "notation": [
     "0.4"
-  ],
-  "narrower": [
-    {
-      "id": "https://w3id.org/rg-mpg-de/worktime/n0.4.1",
-      "prefLabel": {
-        "de": "Kontrolleinrichtung"
-      }
-    },
-    {
-      "id": "https://w3id.org/rg-mpg-de/worktime/n0.4.2",
-      "prefLabel": {
-        "de": "Träger der Kontrolle"
-      }
-    },
-    {
-      "id": "https://w3id.org/rg-mpg-de/worktime/n0.4.3",
-      "prefLabel": {
-        "de": "Meldung"
-      }
-    }
   ],
   "broader": {
     "id": "https://w3id.org/rg-mpg-de/worktime/n0",

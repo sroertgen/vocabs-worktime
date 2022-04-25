@@ -4,11 +4,17 @@
   "followers": "https://test.skohub.io/followers?subject=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn3.2",
   "inbox": "https://test.skohub.io/inbox?target=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn3.2",
   "prefLabel": {
-    "de": "Stechuhr"
+    "de": "Schein/Marke"
   },
   "altLabel": {
     "de": [
-      "3.2Stechuhr"
+      "3.2Schein/Marke",
+      "Schein",
+      "Marke",
+      "Passierschein",
+      "Karte",
+      "Chip",
+      "Token"
     ]
   },
   "notation": [

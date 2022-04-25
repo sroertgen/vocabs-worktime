@@ -14,26 +14,9 @@
   "notation": [
     "0.2"
   ],
-  "narrower": [
-    {
-      "id": "https://w3id.org/rg-mpg-de/worktime/n0.2.1",
-      "prefLabel": {
-        "de": "Sonntagsarbeit"
-      }
-    },
-    {
-      "id": "https://w3id.org/rg-mpg-de/worktime/n0.2.2",
-      "prefLabel": {
-        "de": "Feiertagsarbeit"
-      }
-    },
-    {
-      "id": "https://w3id.org/rg-mpg-de/worktime/n0.2.3",
-      "prefLabel": {
-        "de": "Nachtarbeit"
-      }
-    }
-  ],
+  "example": {
+    "de": "Zur Leistung von *Ueberstunden*, welche über die normale, in der Arbeitsordnung festgesetzten Zeit hinausgehen und nach Möglichkeit vermieden werden, sowie zur Nachtarbeit sind Arbeitnehmer, wenn nicht ein genügender Entschuldigungsgrund vorliegt, nach Maßgabe der hierfür geltenden gesetzlichen Vorschriften verpflichtet. (00013_AO_Entwurf_unbekannt_1912)"
+  },
   "broader": {
     "id": "https://w3id.org/rg-mpg-de/worktime/n0",
     "prefLabel": {

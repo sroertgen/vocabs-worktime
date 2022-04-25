@@ -12,9 +12,6 @@
       "Funktion"
     ]
   },
-  "scopeNote": {
-    "de": "Von normativen Regeln definierte oder in ihnen erwähnte soziale Rolle oder Kategorie von Personen"
-  },
   "notation": [
     "2"
   ],
@@ -40,49 +37,49 @@
     {
       "id": "https://w3id.org/rg-mpg-de/worktime/n2.4",
       "prefLabel": {
-        "de": "Vorgesetzer/Meister"
+        "de": "Vorgesetzer"
       }
     },
     {
       "id": "https://w3id.org/rg-mpg-de/worktime/n2.5",
       "prefLabel": {
-        "de": "Jugendliche/r Arbeiter/in"
+        "de": "Meister"
       }
     },
     {
       "id": "https://w3id.org/rg-mpg-de/worktime/n2.6",
       "prefLabel": {
-        "de": "Wöchnerin"
+        "de": "Jugendliche/r Arbeiter/in"
       }
     },
     {
       "id": "https://w3id.org/rg-mpg-de/worktime/n2.7",
       "prefLabel": {
-        "de": "Portier"
+        "de": "Wöchnerin"
       }
     },
     {
       "id": "https://w3id.org/rg-mpg-de/worktime/n2.8",
       "prefLabel": {
-        "de": "Betriebsführer"
+        "de": "Portier"
       }
     },
     {
       "id": "https://w3id.org/rg-mpg-de/worktime/n2.9",
       "prefLabel": {
-        "de": "Verwandter/Fremder"
+        "de": "Betriebsführer"
       }
     },
     {
       "id": "https://w3id.org/rg-mpg-de/worktime/n2.10",
       "prefLabel": {
-        "de": "Familienmitglied"
+        "de": "betriebsfremde Person"
       }
     },
     {
       "id": "https://w3id.org/rg-mpg-de/worktime/n2.11",
       "prefLabel": {
-        "de": "Arbeitervertretung/Vertrauensrat"
+        "de": "Interessenvertreter"
       }
     },
     {

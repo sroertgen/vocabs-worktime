@@ -4,11 +4,11 @@
   "followers": "https://test.skohub.io/followers?subject=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn4.2",
   "inbox": "https://test.skohub.io/inbox?target=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn4.2",
   "prefLabel": {
-    "de": "Gebot"
+    "de": "Verbot"
   },
   "altLabel": {
     "de": [
-      "4.2Gebot"
+      "4.2Verbot"
     ]
   },
   "notation": [
@@ -17,7 +17,7 @@
   "broader": {
     "id": "https://w3id.org/rg-mpg-de/worktime/n4",
     "prefLabel": {
-      "de": "Normative Einordnung"
+      "de": "Präskriptive Bewertung"
     }
   },
   "inScheme": {

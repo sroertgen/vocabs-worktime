@@ -4,15 +4,41 @@
   "followers": "https://test.skohub.io/followers?subject=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn0.6",
   "inbox": "https://test.skohub.io/inbox?target=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn0.6",
   "prefLabel": {
-    "de": "Anreiz"
+    "de": "Kontrolle"
   },
   "altLabel": {
     "de": [
-      "0.6Anreiz"
+      "0.6Kontrolle"
     ]
   },
   "notation": [
     "0.6"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/rg-mpg-de/worktime/n0.6.1",
+      "prefLabel": {
+        "de": "Kontrolleinrichtung"
+      }
+    },
+    {
+      "id": "https://w3id.org/rg-mpg-de/worktime/n0.6.2",
+      "prefLabel": {
+        "de": "Träger der Kontrolle"
+      }
+    },
+    {
+      "id": "https://w3id.org/rg-mpg-de/worktime/n0.6.3",
+      "prefLabel": {
+        "de": "Meldung"
+      }
+    },
+    {
+      "id": "https://w3id.org/rg-mpg-de/worktime/n0.6.4",
+      "prefLabel": {
+        "de": "Kontrolltechnik"
+      }
+    }
   ],
   "broader": {
     "id": "https://w3id.org/rg-mpg-de/worktime/n0",

@@ -4,11 +4,11 @@
   "followers": "https://test.skohub.io/followers?subject=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn3.4",
   "inbox": "https://test.skohub.io/inbox?target=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn3.4",
   "prefLabel": {
-    "de": "Tor"
+    "de": "Werkzeug"
   },
   "altLabel": {
     "de": [
-      "3.4Tor"
+      "3.4Werkzeug"
     ]
   },
   "notation": [

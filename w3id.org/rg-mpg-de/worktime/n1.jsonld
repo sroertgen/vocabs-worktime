@@ -77,6 +77,18 @@
       "prefLabel": {
         "de": "Tod"
       }
+    },
+    {
+      "id": "https://w3id.org/rg-mpg-de/worktime/n1.11",
+      "prefLabel": {
+        "de": "Aufenthalt"
+      }
+    },
+    {
+      "id": "https://w3id.org/rg-mpg-de/worktime/n1.12",
+      "prefLabel": {
+        "de": "Mitbringen oder Wegnehmen"
+      }
     }
   ],
   "inScheme": {

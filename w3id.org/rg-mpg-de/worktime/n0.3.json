@@ -4,30 +4,19 @@
   "followers": "https://test.skohub.io/followers?subject=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn0.3",
   "inbox": "https://test.skohub.io/inbox?target=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn0.3",
   "prefLabel": {
-    "de": "Abwesenheit"
+    "de": "Nachtarbeit"
   },
   "altLabel": {
     "de": [
-      "0.3Abwesenheit"
+      "0.3Nachtarbeit"
     ]
   },
   "notation": [
     "0.3"
   ],
-  "narrower": [
-    {
-      "id": "https://w3id.org/rg-mpg-de/worktime/n0.3.1",
-      "prefLabel": {
-        "de": "Erlaubte Abwesenheit"
-      }
-    },
-    {
-      "id": "https://w3id.org/rg-mpg-de/worktime/n0.3.2",
-      "prefLabel": {
-        "de": "Unerlaubte Abwesenheit"
-      }
-    }
-  ],
+  "example": {
+    "de": "Zur Leistung von Ueberstunden, welche über die normale, in der Arbeitsordnung festgesetzten Zeit hinausgehen und nach Möglichkeit vermieden werden, sowie zur *Nachtarbeit* sind Arbeitnehmer, wenn nicht ein genügender Entschuldigungsgrund vorliegt, nach Maßgabe der hierfür geltenden gesetzlichen Vorschriften verpflichtet. (00013_AO_Entwurf_unbekannt_1912)"
+  },
   "broader": {
     "id": "https://w3id.org/rg-mpg-de/worktime/n0",
     "prefLabel": {

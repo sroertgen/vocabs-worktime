@@ -18,17 +18,11 @@
     {
       "id": "https://w3id.org/rg-mpg-de/worktime/n0.1.1",
       "prefLabel": {
-        "de": "Arbeitstage"
+        "de": "Arbeitstag"
       }
     },
     {
       "id": "https://w3id.org/rg-mpg-de/worktime/n0.1.2",
-      "prefLabel": {
-        "de": "Arbeitsbeginn und -ende"
-      }
-    },
-    {
-      "id": "https://w3id.org/rg-mpg-de/worktime/n0.1.3",
       "prefLabel": {
         "de": "Arbeitsdauer"
       }

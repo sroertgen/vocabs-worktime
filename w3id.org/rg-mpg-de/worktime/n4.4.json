@@ -4,11 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn4.4",
   "inbox": "https://test.skohub.io/inbox?target=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn4.4",
   "prefLabel": {
-    "de": "Freistellung"
+    "de": "Derogation"
   },
   "altLabel": {
     "de": [
-      "4.Freistellung4"
+      "4.4Derogation",
+      "Ausnahme"
     ]
   },
   "notation": [
@@ -17,7 +18,7 @@
   "broader": {
     "id": "https://w3id.org/rg-mpg-de/worktime/n4",
     "prefLabel": {
-      "de": "Normative Einordnung"
+      "de": "Präskriptive Bewertung"
     }
   },
   "inScheme": {

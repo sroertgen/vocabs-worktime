@@ -4,11 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn2.8",
   "inbox": "https://test.skohub.io/inbox?target=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn2.8",
   "prefLabel": {
-    "de": "Betriebsführer"
+    "de": "Portier"
   },
   "altLabel": {
     "de": [
-      "2.8Betriebsführer"
+      "2.8Portier",
+      "Pförtner"
     ]
   },
   "notation": [

@@ -4,15 +4,65 @@
   "followers": "https://test.skohub.io/followers?subject=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn0.5",
   "inbox": "https://test.skohub.io/inbox?target=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn0.5",
   "prefLabel": {
-    "de": "Strafe"
+    "de": "Abwesenheit"
   },
   "altLabel": {
     "de": [
-      "0.5Strafe"
+      "0.5Abwesenheit"
     ]
   },
   "notation": [
     "0.5"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/rg-mpg-de/worktime/n0.5.1",
+      "prefLabel": {
+        "de": "Pause"
+      }
+    },
+    {
+      "id": "https://w3id.org/rg-mpg-de/worktime/n0.5.2",
+      "prefLabel": {
+        "de": "Schulung"
+      }
+    },
+    {
+      "id": "https://w3id.org/rg-mpg-de/worktime/n0.5.3",
+      "prefLabel": {
+        "de": "Urlaub"
+      }
+    },
+    {
+      "id": "https://w3id.org/rg-mpg-de/worktime/n0.5.4",
+      "prefLabel": {
+        "de": "Betriebsunfall"
+      }
+    },
+    {
+      "id": "https://w3id.org/rg-mpg-de/worktime/n0.5.5",
+      "prefLabel": {
+        "de": "Sozialer Grund"
+      }
+    },
+    {
+      "id": "https://w3id.org/rg-mpg-de/worktime/n0.5.6",
+      "prefLabel": {
+        "de": "Verspätung"
+      }
+    },
+    {
+      "id": "https://w3id.org/rg-mpg-de/worktime/n0.5.7",
+      "prefLabel": {
+        "de": "Blauer Montag"
+      }
+    },
+    {
+      "id": "https://w3id.org/rg-mpg-de/worktime/n0.5.8",
+      "prefLabel": {
+        "de": "Krankheit"
+      }
+    }
   ],
   "broader": {
     "id": "https://w3id.org/rg-mpg-de/worktime/n0",

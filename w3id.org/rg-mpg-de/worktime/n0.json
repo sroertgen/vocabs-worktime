@@ -33,23 +33,35 @@
     {
       "id": "https://w3id.org/rg-mpg-de/worktime/n0.3",
       "prefLabel": {
-        "de": "Abwesenheit"
+        "de": "Nachtarbeit"
       }
     },
     {
       "id": "https://w3id.org/rg-mpg-de/worktime/n0.4",
       "prefLabel": {
-        "de": "Kontrolle"
+        "de": "Sonn-/Feiertagsarbeit"
       }
     },
     {
       "id": "https://w3id.org/rg-mpg-de/worktime/n0.5",
       "prefLabel": {
-        "de": "Strafe"
+        "de": "Abwesenheit"
       }
     },
     {
       "id": "https://w3id.org/rg-mpg-de/worktime/n0.6",
+      "prefLabel": {
+        "de": "Kontrolle"
+      }
+    },
+    {
+      "id": "https://w3id.org/rg-mpg-de/worktime/n0.7",
+      "prefLabel": {
+        "de": "Strafe"
+      }
+    },
+    {
+      "id": "https://w3id.org/rg-mpg-de/worktime/n0.8",
       "prefLabel": {
         "de": "Anreiz"
       }

@@ -4,15 +4,35 @@
   "followers": "https://test.skohub.io/followers?subject=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn3.1",
   "inbox": "https://test.skohub.io/inbox?target=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn3.1",
   "prefLabel": {
-    "de": "Fabrikuhr"
+    "de": "Signaleinrichtung"
   },
   "altLabel": {
     "de": [
-      "3.1Fabrikuhr"
+      "3.1Signaleinrichtung"
     ]
   },
   "notation": [
     "3.1"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/rg-mpg-de/worktime/n3.1.1",
+      "prefLabel": {
+        "de": "Fabrikuhr"
+      }
+    },
+    {
+      "id": "https://w3id.org/rg-mpg-de/worktime/n3.1.2",
+      "prefLabel": {
+        "de": "Stechuhr"
+      }
+    },
+    {
+      "id": "https://w3id.org/rg-mpg-de/worktime/n3.1.3",
+      "prefLabel": {
+        "de": "Akustisches Signal"
+      }
+    }
   ],
   "broader": {
     "id": "https://w3id.org/rg-mpg-de/worktime/n3",

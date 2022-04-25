@@ -4,15 +4,47 @@
   "followers": "https://test.skohub.io/followers?subject=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn3.6",
   "inbox": "https://test.skohub.io/inbox?target=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn3.6",
   "prefLabel": {
-    "de": "Werkzeug"
+    "de": "Räumlichkeit"
   },
   "altLabel": {
     "de": [
-      "3.6Werkzeug"
+      "3.6Räumlichkeit"
     ]
   },
   "notation": [
     "3.6"
+  ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/rg-mpg-de/worktime/n3.6.1",
+      "prefLabel": {
+        "de": "Passage/Grenze"
+      }
+    },
+    {
+      "id": "https://w3id.org/rg-mpg-de/worktime/n3.6.2",
+      "prefLabel": {
+        "de": "Werksgelände"
+      }
+    },
+    {
+      "id": "https://w3id.org/rg-mpg-de/worktime/n3.6.3",
+      "prefLabel": {
+        "de": "Kesselhaus"
+      }
+    },
+    {
+      "id": "https://w3id.org/rg-mpg-de/worktime/n3.6.4",
+      "prefLabel": {
+        "de": "Werkstatt"
+      }
+    },
+    {
+      "id": "https://w3id.org/rg-mpg-de/worktime/n3.6.5",
+      "prefLabel": {
+        "de": "Hof"
+      }
+    }
   ],
   "broader": {
     "id": "https://w3id.org/rg-mpg-de/worktime/n3",

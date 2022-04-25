@@ -4,11 +4,11 @@
   "followers": "https://test.skohub.io/followers?subject=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn0.1.1",
   "inbox": "https://test.skohub.io/inbox?target=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn0.1.1",
   "prefLabel": {
-    "de": "Arbeitstage"
+    "de": "Arbeitstag"
   },
   "altLabel": {
     "de": [
-      "0.1.1Arbeitstage"
+      "0.1.1Arbeitstag"
     ]
   },
   "notation": [
@@ -18,13 +18,13 @@
     {
       "id": "https://w3id.org/rg-mpg-de/worktime/n0.1.1.1",
       "prefLabel": {
-        "de": "Werktage"
+        "de": "Regulärer Werktag"
       }
     },
     {
       "id": "https://w3id.org/rg-mpg-de/worktime/n0.1.1.2",
       "prefLabel": {
-        "de": "Sonnabend"
+        "de": "Sonderwerktag"
       }
     }
   ],

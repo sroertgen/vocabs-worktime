@@ -4,11 +4,11 @@
   "followers": "https://test.skohub.io/followers?subject=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn3.5",
   "inbox": "https://test.skohub.io/inbox?target=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn3.5",
   "prefLabel": {
-    "de": "Maschine"
+    "de": "Material"
   },
   "altLabel": {
     "de": [
-      "3.5Maschine"
+      "3.5Material"
     ]
   },
   "notation": [

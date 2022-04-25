@@ -4,11 +4,11 @@
   "followers": "https://test.skohub.io/followers?subject=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn4",
   "inbox": "https://test.skohub.io/inbox?target=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn4",
   "prefLabel": {
-    "de": "Normative Einordnung"
+    "de": "Präskriptive Bewertung"
   },
   "altLabel": {
     "de": [
-      "4NormativeEinordnung"
+      "4Präskriptive Bewertung"
     ]
   },
   "scopeNote": {
@@ -21,13 +21,13 @@
     {
       "id": "https://w3id.org/rg-mpg-de/worktime/n4.1",
       "prefLabel": {
-        "de": "Verbot"
+        "de": "Gebot"
       }
     },
     {
       "id": "https://w3id.org/rg-mpg-de/worktime/n4.2",
       "prefLabel": {
-        "de": "Gebot"
+        "de": "Verbot"
       }
     },
     {
@@ -39,19 +39,7 @@
     {
       "id": "https://w3id.org/rg-mpg-de/worktime/n4.4",
       "prefLabel": {
-        "de": "Freistellung"
-      }
-    },
-    {
-      "id": "https://w3id.org/rg-mpg-de/worktime/n4.5",
-      "prefLabel": {
-        "de": "Überschreibung"
-      }
-    },
-    {
-      "id": "https://w3id.org/rg-mpg-de/worktime/n4.6",
-      "prefLabel": {
-        "de": "Ausnahme"
+        "de": "Derogation"
       }
     }
   ],

@@ -21,61 +21,37 @@
     {
       "id": "https://w3id.org/rg-mpg-de/worktime/n3.1",
       "prefLabel": {
-        "de": "Fabrikuhr"
+        "de": "Signaleinrichtung"
       }
     },
     {
       "id": "https://w3id.org/rg-mpg-de/worktime/n3.2",
       "prefLabel": {
-        "de": "Stechuhr"
+        "de": "Schein/Marke"
       }
     },
     {
       "id": "https://w3id.org/rg-mpg-de/worktime/n3.3",
       "prefLabel": {
-        "de": "Glocke"
+        "de": "Maschine"
       }
     },
     {
       "id": "https://w3id.org/rg-mpg-de/worktime/n3.4",
       "prefLabel": {
-        "de": "Tor"
+        "de": "Werkzeug"
       }
     },
     {
       "id": "https://w3id.org/rg-mpg-de/worktime/n3.5",
       "prefLabel": {
-        "de": "Maschine"
+        "de": "Material"
       }
     },
     {
       "id": "https://w3id.org/rg-mpg-de/worktime/n3.6",
       "prefLabel": {
-        "de": "Werkzeug"
-      }
-    },
-    {
-      "id": "https://w3id.org/rg-mpg-de/worktime/n3.7",
-      "prefLabel": {
-        "de": "Material"
-      }
-    },
-    {
-      "id": "https://w3id.org/rg-mpg-de/worktime/n3.8",
-      "prefLabel": {
         "de": "Räumlichkeit"
-      }
-    },
-    {
-      "id": "https://w3id.org/rg-mpg-de/worktime/n3.9",
-      "prefLabel": {
-        "de": "Wege"
-      }
-    },
-    {
-      "id": "https://w3id.org/rg-mpg-de/worktime/n3.10",
-      "prefLabel": {
-        "de": "Token"
       }
     }
   ],

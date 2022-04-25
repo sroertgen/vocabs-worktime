@@ -4,21 +4,34 @@
   "followers": "https://test.skohub.io/followers?subject=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn0.1.1.2",
   "inbox": "https://test.skohub.io/inbox?target=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn0.1.1.2",
   "prefLabel": {
-    "de": "Sonnabend"
+    "de": "Sonderwerktag"
   },
   "altLabel": {
     "de": [
-      "0.1.1.2Sonnabend",
-      "Samstag"
+      "0.1.1.2Sonderwerktag"
     ]
   },
   "notation": [
     "0.1.1.2"
   ],
+  "narrower": [
+    {
+      "id": "https://w3id.org/rg-mpg-de/worktime/n0.1.1.2.1",
+      "prefLabel": {
+        "de": "Montag"
+      }
+    },
+    {
+      "id": "https://w3id.org/rg-mpg-de/worktime/n0.1.1.2.2",
+      "prefLabel": {
+        "de": "Sonnabend"
+      }
+    }
+  ],
   "broader": {
     "id": "https://w3id.org/rg-mpg-de/worktime/n0.1.1",
     "prefLabel": {
-      "de": "Arbeitstage"
+      "de": "Arbeitstag"
     }
   },
   "inScheme": {

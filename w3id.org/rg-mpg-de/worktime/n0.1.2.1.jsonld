@@ -4,11 +4,11 @@
   "followers": "https://test.skohub.io/followers?subject=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn0.1.2.1",
   "inbox": "https://test.skohub.io/inbox?target=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn0.1.2.1",
   "prefLabel": {
-    "de": "Arbeitsbeginn"
+    "de": "Arbeitsdauer, täglich"
   },
   "altLabel": {
     "de": [
-      "0.1.2.1Arbeitsbeginn"
+      "0.1.2.1Arbeitsdauer, täglich"
     ]
   },
   "notation": [
@@ -17,7 +17,7 @@
   "broader": {
     "id": "https://w3id.org/rg-mpg-de/worktime/n0.1.2",
     "prefLabel": {
-      "de": "Arbeitsbeginn und -ende"
+      "de": "Arbeitsdauer"
     }
   },
   "inScheme": {

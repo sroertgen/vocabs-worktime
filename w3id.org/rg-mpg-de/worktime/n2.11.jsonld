@@ -4,11 +4,13 @@
   "followers": "https://test.skohub.io/followers?subject=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn2.11",
   "inbox": "https://test.skohub.io/inbox?target=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn2.11",
   "prefLabel": {
-    "de": "Arbeitervertretung/Vertrauensrat"
+    "de": "Interessenvertreter"
   },
   "altLabel": {
     "de": [
-      "2.11Arbeitervertretung/Vertrauensrat"
+      "2.11Interessenvertreter",
+      "Arbeiterrat",
+      "Vertrauensrat"
     ]
   },
   "notation": [

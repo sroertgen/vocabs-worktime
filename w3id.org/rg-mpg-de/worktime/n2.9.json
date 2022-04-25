@@ -4,11 +4,11 @@
   "followers": "https://test.skohub.io/followers?subject=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn2.9",
   "inbox": "https://test.skohub.io/inbox?target=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn2.9",
   "prefLabel": {
-    "de": "Verwandter/Fremder"
+    "de": "Betriebsführer"
   },
   "altLabel": {
     "de": [
-      "2.9Verwandter/Fremder"
+      "2.9Betriebsführer"
     ]
   },
   "notation": [

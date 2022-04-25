@@ -4,13 +4,11 @@
   "followers": "https://test.skohub.io/followers?subject=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn3.3",
   "inbox": "https://test.skohub.io/inbox?target=vocabs-worktime%2Fw3id.org%2Frg-mpg-de%2Fworktime%2Fn3.3",
   "prefLabel": {
-    "de": "Glocke"
+    "de": "Maschine"
   },
   "altLabel": {
     "de": [
-      "3.3Glocke",
-      "Sirene",
-      "Pfeife"
+      "3.3Maschine"
     ]
   },
   "notation": [
