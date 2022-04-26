@@ -32,7 +32,7 @@ jobs:
 
       - run: mkdir data
 
-      - run: git clone https://github.com/rg-mpg-de/vocabs-worktime.git data/
+      - run: git clone https://github.com/mpilhlt/vocabs-worktime.git data/
 
       - name: make .env.production file
 
