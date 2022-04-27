@@ -6,6 +6,9 @@
   "prefLabel": {
     "de": "Meldungsempfänger"
   },
+  "scopeNote": {
+    "de": "*Meldungsempfänger* ist eine ***thematische*** Rolle (im Interaktionsrahmen *Kontrolle*), sie kann durch Personen wahrgenommen werden, die anhand ihrer ***sozialen*** Rolle oder Funktion (*Meister*, *Pförtner*) identifiziert werden."
+  },
   "notation": [
     "0.6.3.2"
   ],
