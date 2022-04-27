@@ -6,11 +6,6 @@
   "prefLabel": {
     "de": "Abwesenheit"
   },
-  "altLabel": {
-    "de": [
-      "0.5Abwesenheit"
-    ]
-  },
   "notation": [
     "0.5"
   ],

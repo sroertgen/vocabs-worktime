@@ -6,11 +6,6 @@
   "prefLabel": {
     "de": "Regulärer Werktag"
   },
-  "altLabel": {
-    "de": [
-      "0.1.1.1Werktag"
-    ]
-  },
   "notation": [
     "0.1.1.1"
   ],
