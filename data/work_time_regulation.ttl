@@ -25,7 +25,7 @@
     dct:license         "cczero" ;
     dct:bibliographicCitation  "Collin, P. et al.: Concepts of Work Time Regulations. SKOS Concept Scheme. Version 1.0.0. URL: <https://w3id.org/mpilhlt/worktime/1.0.0>"@de ;
     rdfs:seeAlso        <https://www.lhlt.mpg.de/research-project/non-state-law-of-the-economy> ;
-    vann:preferredNamespacePrefix "worktime" ;
+    vann:preferredNamespacePrefix "wt" ;
     vann:preferredNamespaceUri "https://w3id.org/mpilhlt/worktime/" ;
     owl:versionInfo     "0.0.2" ;
     owl:versionIRI      <https://w3id.org/mpilhlt/worktime/1.0.0> ;
@@ -36,7 +36,7 @@
                         :n2 , # Role/function
                         :n3 , # Object
                         :n4 , # Normative Assessment
-                        :n5 . # Condition of force
+                        :n5 . # Condition of being in force
 
 
 :n0 a skos:Concept ;        # Regulatory Concept
@@ -224,7 +224,7 @@
     skos:inScheme       :scheme ;
     skos:notation       "0.6.2" ;
     skos:prefLabel      "Träger der Kontrolle"@de ;
-    skos:scopeNote      "'Träger der Kontrolle' ist eine ***thematische*** Rolle (Thema ist 'Kontrolle'), sie kann durch Personen wahrgenommen werden, die anhand ihrer *sozialen* Rolle ('Meister', 'Pförtner') identifiziert werden." ;
+    skos:scopeNote      "*Träger der Kontrolle* ist eine ***thematische*** Rolle (im Interaktionsrahmen *Kontrolle*), sie kann ggf. durch Personen wahrgenommen werden, die anhand ihrer ***sozialen*** Rolle oder Funktion (*Meister*, *Pförtner*) identifiziert werden."@de ;
     skos:broader        :n0.6 .
 
 :n0.6.3 a skos:Concept ;
@@ -245,7 +245,7 @@
     skos:inScheme       :scheme ;
     skos:notation       "0.6.3.2" ;
     skos:prefLabel      "Meldungsempfänger"@de ;
-    skos:scopeNote      "'Meldungsempfänger' ist eine ***thematische*** Rolle (Thema ist 'Kontrolle'), sie kann durch Personen wahrgenommen werden, die anhand ihrer *sozialen* Rolle ('Meister', 'Pförtner') identifiziert werden." ;
+    skos:scopeNote      "*Meldungsempfänger* ist eine ***thematische*** Rolle (im Interaktionsrahmen *Kontrolle*), sie kann durch Personen wahrgenommen werden, die anhand ihrer ***sozialen*** Rolle oder Funktion (*Meister*, *Pförtner*) identifiziert werden."@de ;
     skos:broader        :n0.6.3 .
 
 :n0.6.4 a skos:Concept ;
