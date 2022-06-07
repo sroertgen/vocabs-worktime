@@ -1,0 +1,63 @@
+@prefix : <https://w3id.org/mpilhlt/worktime_meta/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vs: <https://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:scheme a skos:ConceptScheme ;
+    dct:title           "MPILHLT Begriffe der Arbeitszeitregelung, reflexive und Meta-Angaben"@de ;
+    dct:description     "Begriffsschema für Arbeitszeitregelungen, reflexive und Meta-Angaben"@de ;
+    dct:created         "2022-06-07"^^xsd:date ;
+    dct:issued          "2022-06-07"^^xsd:date ;
+    dct:modified        "2020-06-07"^^xsd:date ;
+    dct:publisher       <http://lobid.org/gnd/1231401982> ;
+    dct:source          <https://raw.githubusercontent.com/mpilhlt/vocabs-worktime/main/worktime_meta.ttl> ;
+    dct:creator         <https://orcid.org/0000-0003-1835-1653> ;
+    dct:contributor     "Collin, Peter" ,
+                        "Ebbertz, Matthias" ,
+                        "Spendrin, Benjamin",
+                        "Vesper, Tim-Niklas",
+                        "Wagner, Andreas" ,
+                        "Wolf, Johanna" ;
+    dct:license         "cczero" ;
+    dct:bibliographicCitation  "Collin, P. et al.: Concepts of Work Time Regulations. SKOS Concept Scheme. Version 1.0.0. URL: <https://w3id.org/mpilhlt/worktime_meta/1.0.0>"@de ;
+    rdfs:seeAlso        <https://www.lhlt.mpg.de/research-project/non-state-law-of-the-economy> ;
+    vann:preferredNamespacePrefix "wtm" ;
+    vann:preferredNamespaceUri "https://w3id.org/mpilhlt/worktime_meta/" ;
+    owl:versionInfo     "0.0.2" ;
+    owl:versionIRI      <https://w3id.org/mpilhlt/worktime_meta/1.0.0> ;
+    vs:term_status      "testing" ;
+    skos:prefLabel      "MPILHLT Begriffe der Arbeitszeitregelung, reflexive und Meta-Angaben"@de ;
+    skos:hasTopConcept  :m5 . # Condition of being in force
+
+:m5 a skos:Concept ;        # Condition of force
+    skos:inScheme       :scheme ;
+    skos:topConceptOf   :scheme ;
+    skos:notation       "5" ;
+    skos:prefLabel      "Bedingung der Geltung"@de ;
+    skos:narrower       :m5.1 , # Time
+                        :m5.2 , # Ground norm
+                        :m5.3 . # Dispute resolution
+
+:m5.1 a skos:Concept ;          # Geltungszeitregel
+    skos:inScheme       :scheme ;
+    skos:notation       "5.1" ;
+    skos:altLabel       "Inkrafttreten"@de ;
+    skos:prefLabel      "Geltungszeitregel"@de ;
+    skos:broader        :m5 .
+
+:m5.2 a skos:Concept ;          # Ermächtigungsnorm
+    skos:inScheme       :scheme ;
+    skos:notation       "5.2" ;
+    skos:altLabel       "Rechtsgrundlage"@de ;
+    skos:prefLabel      "Ermächtigungsnorm"@de ;
+    skos:broader        :m5 .
+
+:m5.3 a skos:Concept ;          # Streitbeilegung
+    skos:inScheme       :scheme ;
+    skos:notation       "5.3" ;
+    skos:prefLabel      "Streitbeilegung"@de ;
+    skos:broader        :m5 .

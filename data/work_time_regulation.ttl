@@ -417,6 +417,7 @@
     skos:prefLabel      "Mitbringen oder Wegnehmen"@de ;
     skos:broader        :n1 .
 
+
 :n2 a skos:Concept ;        # Social Role/Function
     skos:inScheme       :scheme ;
     skos:topConceptOf   :scheme ;
@@ -436,7 +437,15 @@
                         :n2.9 , # Works manager
                         :n2.10 , # external persons
                         :n2.11 , # stakeholder
-                        :n2.12 . # owner
+                        :n2.12 , # owner
+                        :n2.13 , # assistant
+                        :n2.14 , # foreman
+                        :n2.15 , # maschinist
+                        :n2.16 , # civil servant
+                        :n2.17 , # technician
+                        :n2.18 , # "simple" pension fund member
+                        :n2.19 , # conscript
+                        :n2.20 . # Vermindert Erwerbsfähige
 
 :n2.1 a skos:Concept ;          # Erwachsener Arbeiter
     skos:inScheme       :scheme ;
@@ -535,6 +544,55 @@
     skos:prefLabel      "Fabrik-/Unternehmensbesitzer"@de ;
     skos:broader        :n2 .
 
+:n2.13 a skos:Concept ;         # (Handlungs-)Gehilfe
+    skos:inScheme       :scheme ;
+    skos:notation       "2.13" ;
+    skos:altLabel       "Handlungsgehilfe"@de ;
+    skos:prefLabel      "Gehilfe"@de ;
+    skos:broader        :n2 .
+
+:n2.14 a skos:Concept ;         # Vorarbeiter
+    skos:inScheme       :scheme ;
+    skos:notation       "2.14" ;
+    skos:prefLabel      "Vorarbeiter"@de ;
+    skos:broader        :n2 .
+
+:n2.15 a skos:Concept ;         # Maschinist
+    skos:inScheme       :scheme ;
+    skos:notation       "2.15" ;
+    skos:prefLabel      "Maschinist"@de ;
+    skos:broader        :n2 .
+
+:n2.16 a skos:Concept ;         # Beamter
+    skos:inScheme       :scheme ;
+    skos:notation       "2.16" ;
+    skos:prefLabel      "Beamter"@de ;
+    skos:broader        :n2 .
+
+:n2.17 a skos:Concept ;         # Techniker
+    skos:inScheme       :scheme ;
+    skos:notation       "2.17" ;
+    skos:prefLabel      "Techniker"@de ;
+    skos:broader        :n2 .
+
+:n2.18 a skos:Concept ;         # ("einfaches") Kassenmitglied
+    skos:inScheme       :scheme ;
+    skos:notation       "2.18" ;
+    skos:altLabel       "'einfaches' Kassenmitglied"@de ;
+    skos:prefLabel      "Kassenmitglied"@de ;
+    skos:broader        :n2 .
+
+:n2.19 a skos:Concept ;         # Militärpflichtiger
+    skos:inScheme       :scheme ;
+    skos:notation       "2.19" ;
+    skos:prefLabel      "Militärpflichtiger"@de ;
+    skos:broader        :n2 .
+
+:n2.20 a skos:Concept ;         # vermindert Erwerbsfähiger
+    skos:inScheme       :scheme ;
+    skos:notation       "2.20" ;
+    skos:prefLabel      "vermindert Erwerbsfähiger"@de ;
+    skos:broader        :n2 .
 
 
 :n3 a skos:Concept ;        # Object
